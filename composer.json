@@ -1,0 +1,19 @@
+{
+    "name": "extevao/facebook-bot-sdk",
+    "type": "libary",
+    "authors": [
+        {
+            "name": "Estevao Vasques",
+            "email": "estevaovasques@hotmail.com"
+        }
+    ],
+    "require": {
+        "cviebrock/eloquent-sluggable": "^4.3",
+        "phpunit/phpunit": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeBot\\": "src"
+        }
+    }
+}
