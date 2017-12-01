@@ -2,12 +2,11 @@
 
 namespace CodeBot\Message;
 
-class Text{
+class Text implements Message {
 
     private $recipientId;
 
-    public function __construct(string $recipientId)
-    {
+    public function __construct(string $recipientId){
         $this->recipientId = $recipientId;
     }
 
