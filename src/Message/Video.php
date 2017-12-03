@@ -9,7 +9,7 @@
 namespace CodeBot\Message;
 
 
-class Image implements Message {
+class Video implements Message {
 
     private $recipientId;
 
