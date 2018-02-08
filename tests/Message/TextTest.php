@@ -2,13 +2,13 @@
 
 namespace CodeBot\Message;
 
-use Tests\TestCase;
+use PHPUnit\Framework\TestCase;
 
 class TextTest extends TestCase
 {
     public function testRetornaUmArray()
     {
-        $actual = (new Text)->message('oii');
+        $actual = (new Text(1))->message('oii');
         $expected = [
             'recipient' => [
                 'id' => 1
