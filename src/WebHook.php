@@ -17,7 +17,7 @@ class WebHook
         $hubMode = filter_input(INPUT_GET, 'hub_mode');
         $hubVerifyToken = filter_input(INPUT_GET, 'hub_verify_token');
 
-        if ($hubMode == 'subscribe' and $hubVerifyToken == $token) {
+        if ($hubMode === 'subscribe' and $hubVerifyToken === $token) {
             return filter_input(INPUT_GET, 'hub_challenge');
         }
 
