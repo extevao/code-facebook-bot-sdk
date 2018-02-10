@@ -17,7 +17,7 @@ class CallSendApi
 
     public function make(array $message, string $url = null, $method = 'POST'): string
     {
-        $client = new Client();
+        $client = new Client;
         $url = $url ?? CallSendApi::URL;
 
         $response = $client->request($method, $url, [
