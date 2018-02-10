@@ -28,7 +28,7 @@ class File implements Message {
                 'attachment' => [
                     'type' => 'file',
                     'payload' => [
-                        'url' => $$messageText
+                        'url' => $messageText
                     ]
                 ]
 

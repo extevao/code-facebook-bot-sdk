@@ -28,7 +28,7 @@ class Audio implements Message {
                 'attachment' => [
                     'type' => 'audio',
                     'payload' => [
-                        'url' => $$messageText
+                        'url' => $messageText
                     ]
                 ]
 
