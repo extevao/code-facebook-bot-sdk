@@ -2,11 +2,11 @@
 
 namespace CodeBot\TemplatesMessage;
 
-use CodeBot\Message\Message;
+
 use CodeBot\Element\ElementInterface;
 
 
-class ButtonsTemplate implements Message
+class ButtonsTemplate implements TemplateInterface
 {
 
     protected $buttons = [];
